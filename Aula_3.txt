@@ -1,0 +1,85 @@
+    1  history 
+    2  git config --global user.name 'Jose Gonzalez'
+    3  git config --global user.email 'josegonzalezmonroy@gmail.com'
+    4  git config user.name
+    5  cd documents
+    6  cd desktop
+    7  cd documents
+    8  ls
+    9  mkdir Curso_Git
+   10  cd curso_git
+   11  git config user.name
+   12  git init
+   13  git status
+   14  echo '#Aprendendo usar o Git' > readme.md
+   15  git status
+   16  git add readme.md
+   17  git status
+   18  git commit -m 'Commit inicial'
+   19  git status
+   20  echo '##Aula 1' >> readme.md
+   21  git status
+   22  echo 'Jose Gonzalez' > participantes.txt
+   23  git status
+   24  git add .
+   25  git status
+   26  git restore --staged participantes.txt
+   27  git status
+   28  git add participantes.txt
+   29  git status
+   30  git restore --staged .
+   31  git status
+   32  git commit -am 'Alteração no readme'
+   33  git status
+   34  git add participantes.txt
+   35  git status
+   36  git commit -m 'Adicionado participantes.txt'
+   37  history > Aula_3.txt
+   38  git status
+   39  git add .
+   40  git commit -m 'Comandos da Aula 3'
+   41  git log -2
+   42  git log -p -2
+   43  ls
+   44  clear
+   45  history
+   46  clear
+   47  clear
+   48  git config.username
+   49  git config user.name
+   50  history
+   51  cd ~
+   52  ls
+   53  cd comandos
+   54  cd ..
+   55  mkdir Curso_Git2
+   56  cd Curso_Git2
+   57  git config user_name
+   58  git config user.name
+   59  git init
+   60  git status
+   61  echo '#Aprendendo usar o Git' > readme.md
+   62  git status
+   63  git add readme.md
+   64  git status
+   65  git commit -m 'Commit inicial'
+   66  git status
+   67  echo '##Aula 1' >> readme.md
+   68  git status
+   69  echo 'Jose Gonzalez' > participantes.txt
+   70  git status
+   71  git add .
+   72  git status
+   73  git restore --staged participantes.txt
+   74  git status
+   75  git add participantes.txt
+   76  git status
+   77  git restore --staged .
+   78  git status
+   79  git commit -am 'Alteração no readme'
+   80  git status
+   81  git add participantes.txt
+   82  git status
+   83  git commit -m 'Adicionado participantes.txt'
+   84  git status
+   85  history > Aula_3.txt
