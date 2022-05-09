@@ -1,0 +1,91 @@
+    1  history 
+    2  git config --global user.name 'Jose Gonzalez'
+    3  git config --global user.email 'josegonzalezmonroy@gmail.com'
+    4  git config user.name
+    5  cd documents
+    6  cd desktop
+    7  cd documents
+    8  ls
+    9  mkdir Curso_Git
+   10  cd curso_git
+   11  git config user.name
+   12  git init
+   13  git status
+   14  echo '#Aprendendo usar o Git' > readme.md
+   15  git status
+   16  git add readme.md
+   17  git status
+   18  git commit -m 'Commit inicial'
+   19  git status
+   20  echo '##Aula 1' >> readme.md
+   21  git status
+   22  echo 'Jose Gonzalez' > participantes.txt
+   23  git status
+   24  git add .
+   25  git status
+   26  git restore --staged participantes.txt
+   27  git status
+   28  git add participantes.txt
+   29  git status
+   30  git restore --staged .
+   31  git status
+   32  git commit -am 'Alteração no readme'
+   33  git status
+   34  git add participantes.txt
+   35  git status
+   36  git commit -m 'Adicionado participantes.txt'
+   37  history > Aula_3.txt
+   38  git status
+   39  git add .
+   40  git commit -m 'Comandos da Aula 3'
+   41  git log -2
+   42  git log -p -2
+   43  ls
+   44  clear
+   45  history
+   46  clear
+   47  clear
+   48  git config.username
+   49  git config user.name
+   50  history
+   51  git branch
+   52  git checkout -b feature
+   53  git branch
+   54  touch Nova_feature
+   55  git status
+   56  git add Nova_feature
+   57  git commit -m 'Adicionando nova feature'
+   58  git status
+   59  git log
+   60  git checkout master
+   61  git status
+   62  git log
+   63  touch Continuando_master
+   64  git add Continuando_master
+   65  git commit -m 'Adicionado continuacao na master'
+   66  git log
+   67  git checkout feature
+   68  git log
+   69  git checkout -b feature2 master
+   70  git log
+   71  git branch -d feature2
+   72  git checkout feature
+   73  git branch -d feature2
+   74  git log
+   75  git checkout feature2
+   76  clear
+   77  git checkout feature
+   78  git log --pretty=oneline --graph
+   79  git merge master
+   80  git log
+   81  git log --pretty=oneline --graph
+   82  git reset --hard HEAD~
+   83  git log --pretty=oneline --graph
+   84  git rebase master
+   85  git log --pretty=oneline --graph
+   86  history
+   87  ls
+   88  cd ~
+   89  ls
+   90  cd curso_git2
+   91  history > Aula_5.txt
